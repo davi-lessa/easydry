@@ -19,10 +19,10 @@ const offer = new Offer({
         title: "#oferta_titulo"
     },
     variations: [
-        { title: "Easy Dry™ – Rosa", text: "Rosa", sku: "asdx", price: 59.9, from_price: 79.9, img: "./assets/img/prod_rosa.jpg", parcelCount: 3, progressQty: 5 },
-        { title: "Easy Dry™ – Roxa", text: "Roxa", sku: "asd4x", price: 59.9, from_price: 79.9, img: "./assets/img/prod_roxo.jpg", parcelCount: 3, progressQty: 13 },
+        { title: "Easy Dry™ – Rosa", text: "Rosa", sku: "asdx", price: 59.9, from_price: 79.9, img: "https://storage.googleapis.com/dsvstorage/easydry/prod_rosa.jpg", parcelCount: 3, progressQty: 5 },
+        { title: "Easy Dry™ – Roxa", text: "Roxa", sku: "asd4x", price: 59.9, from_price: 79.9, img: "https://storage.googleapis.com/dsvstorage/easydry/prod_roxo.jpg", parcelCount: 3, progressQty: 13 },
         { title: "Easy Dry™ – Prata", text: "Prata", sku: "a3sdxx", price: 59.9, from_price: 79.9, img: "", parcelCount: 3, progressQty: 8, nostock: true },
-        { title: "Easy Dry™ – Preta", text: "Preta", sku: "asd4x1", price: 59.9, from_price: 79.9, img: "./assets/img/prod_preto.jpg", parcelCount: 3, progressQty: 9 }
+        { title: "Easy Dry™ – Preta", text: "Preta", sku: "asd4x1", price: 59.9, from_price: 79.9, img: "https://storage.googleapis.com/dsvstorage/easydry/prod_preto.jpg", parcelCount: 3, progressQty: 9 }
     ],
     cfg: {
         baseURL: ""

@@ -1,5 +1,5 @@
-assets/
 !assets/img/defs/*
+assets/
 src/player-0.1.0.min
 src/swiper-bundle.min
 src/name_generator.html

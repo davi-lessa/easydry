@@ -205,7 +205,7 @@ var relayout,
             "date": "2021/08/28",
             "text": "Muito satisfeita! A ponta da touca fixou perfeitamente no bocal do secador. Tudo certo!",
             "stars": 5,
-            "img": "./assets/img/defs/reviews/kfgh.webp",
+            "img": "./assets/img/defs/reviews/kfgh.jpg",
             "bg": "",
             "w": 1,
             "h": 1

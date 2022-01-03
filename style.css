@@ -394,7 +394,7 @@ section.s1 {
 }
 
 section.s1 h1 {
-    padding            : 0 30px 0 20px;
+    padding            : 0 20px 0 20px;
     color              : #5E1C3E;
     /* text-shadow     : 2px 3px 1px white; */
     font-size          : 32px;
@@ -933,6 +933,7 @@ ul.links {
 
 ul.links li {
     margin-bottom: 6px;
+    cursor       : pointer;
 }
 
 @keyframes update {
@@ -1286,6 +1287,10 @@ ul.steps_list span:not(.num) {
         padding: 40px 25%;
     }
 
+    .id_content_html {
+        padding: 24px 20%
+    }
+
     section.s1 h3 {
         width: 50%;
     }
@@ -1303,9 +1308,17 @@ ul.steps_list span:not(.num) {
         align-content : center;
     }
 
-    section.ps img{
-        width: unset;
+    section.ps img {
+        width     : unset;
         max-height: 525px;
+    }
+
+    section.s1 h1 {
+        max-width: 728px;
+    }
+
+    body.stop-scrolling::after{
+        background-color: transparent!important;
     }
 }
 
@@ -1319,6 +1332,4 @@ ul.steps_list span:not(.num) {
 
 ul.steps_list {
     max-width: 600px;
-}
-
 }

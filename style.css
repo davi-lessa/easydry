@@ -528,11 +528,17 @@ section.reviews {
     flex-wrap       : wrap;
     align-content   : flex-start;
     padding         : 5%;
+    justify-content: center;
 }
 
 .offerBox * {
     font-family: "PN";
     line-height: 125%;
+}
+
+#oferta_titulo, #offer_parcel, #model{
+    width: 100%;
+    text-align: left;
 }
 
 
@@ -1237,7 +1243,9 @@ ul.steps_list span:not(.num) {
     background-color: #bb6b95;
 }
 
-.offer-rate {}
+.offer-rate {
+    cursor: pointer
+}
 
 .fixed-bg {
     /* box-shadow: 0 0 50px 3px black inset; */
@@ -1317,8 +1325,8 @@ ul.steps_list span:not(.num) {
         max-width: 728px;
     }
 
-    body.stop-scrolling::after{
-        background-color: transparent!important;
+    body.stop-scrolling::after {
+        background-color: transparent !important;
     }
 }
 

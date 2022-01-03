@@ -91,12 +91,6 @@ body.locked {
     max-height: 100vh;
 }
 
-@media screen and (min-width: 922px) {
-    body.locked {
-        padding-right: 17px;
-    }
-}
-
 .container {
     background-color: black;
 }
@@ -715,8 +709,8 @@ section.bonus h1 {
 }
 
 section#offer {
-    background: black;
-    background: linear-gradient(135deg, #bb6b95 50%, #d87cac 50%, #ff52ac 90%, black 90%);
+    background: #ff52ac;
+    background: linear-gradient(135deg, #bb6b95 50%, #d87cac 50%, #ff52ac 90%);
     padding   : 50px 0;
 }
 
@@ -792,7 +786,7 @@ ul.cards li span {
     font-weight  : bold;
     margin-bottom: 8px;
     color        : #d87cac;
-    padding: 0 20px;
+    padding      : 0 20px;
 }
 
 ul.cards li .box {
@@ -1093,9 +1087,9 @@ button.dlv_accord.active {
 
 .dlv_accord h3 {
     /* font-family: "Rubik"; */
-    text-align : left;
-    margin     : 0;
-    font-size  : 18px;
+    text-align: left;
+    margin    : 0;
+    font-size : 18px;
 }
 
 button.dlv_accord:after {
@@ -1257,4 +1251,74 @@ ul.steps_list span:not(.num) {
 
 #offer h1 {
     padding: 0 20px
+}
+
+.sep1 {
+    position: relative;
+}
+
+
+@media screen and (min-width: 922px) {
+    body.locked {
+        padding-right: 17px;
+    }
+
+    header {
+        padding   : 0 25%;
+        background: #a15b80;
+    }
+
+    section.headerSection {
+        background: #d87cac;
+    }
+
+    section.s1 .sep1 {
+        max-width: 50%;
+    }
+
+    section.section_cards,
+    section.ps,
+    section.s2,
+    section.bonus,
+    section#offer,
+    section.faq,
+    footer {
+        padding: 40px 25%;
+    }
+
+    section.s1 h3 {
+        width: 50%;
+    }
+
+    section.reviews {
+        background: white;
+    }
+
+    footer {
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : wrap;
+        max-height    : 100px;
+        gap           : 0 50px;
+        align-content : center;
+    }
+
+    section.ps img{
+        width: unset;
+        max-height: 525px;
+    }
+}
+
+.fancy-scroll::-webkit-scrollbar {
+    height: 25px;
+}
+
+ul.steps_list span:not(.num) {
+    max-width: 450px;
+}
+
+ul.steps_list {
+    max-width: 600px;
+}
+
 }

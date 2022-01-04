@@ -95,7 +95,7 @@
     background   : #fff
 }
 
-.review_content > img {
+.review_content>img {
     display         : block;
     cursor          : zoom-in;
     width           : 100%;
@@ -105,15 +105,15 @@
     background-color: #d3d3d3
 }
 
-.ratingStar{
-    height: 14px;
-    width: 15px;
+.ratingStar {
+    height      : 14px;
+    width       : 15px;
     margin-right: 3px
 }
 
-.ratingStarBig{
-    height: 20px;
-    width: 21px;
+.ratingStarBig {
+    height      : 20px;
+    width       : 21px;
     margin-right: 3px
 }
 
@@ -179,12 +179,12 @@
 
 .stop-scrolling {
     /* height    : 100vh; */
-    overflow  : hidden;
+    overflow     : hidden;
     /* min-height: 100vh; */
-    position: relative!important;
+    position     : relative !important;
 }
 
-body.stop-scrolling::after{
+body.stop-scrolling::after {
     content         : '';
     position        : absolute;
     top             : 0;
@@ -192,8 +192,8 @@ body.stop-scrolling::after{
     width           : 100%;
     height          : 100%;
     background-color: white;
-    z-index: 221;
-    pointer-events: none;
+    z-index         : 221;
+    pointer-events  : none;
 }
 
 .img_zoom {
@@ -370,19 +370,19 @@ body.stop-scrolling::after{
 }
 
 #closeZoomBtn {
-    position     : absolute;
-    background   : rgb(0, 0, 0, .4);
-    width        : 35px;
-    height       : 35px;
-    top          : 15px;
-    left         : 15px;
-    border-radius: 8px;
-    cursor       : pointer;
-    transition   : background .15s ease;
-    color        : #fff;
-    overflow     : hidden;
-    z-index      : 251;
-    background-image: url(../assets/img/svg_verify.svg);
+    position        : absolute;
+    background      : rgb(0, 0, 0, .4);
+    width           : 35px;
+    height          : 35px;
+    top             : 15px;
+    left            : 15px;
+    border-radius   : 8px;
+    cursor          : pointer;
+    transition      : background .15s ease;
+    color           : #fff;
+    overflow        : hidden;
+    z-index         : 251;
+    background-image: url(../assets/img/defs/svg/svg_verify.svg);
 }
 
 #closeZoomBtn:hover {
@@ -459,8 +459,8 @@ body.stop-scrolling::after{
     position: absolute
 }
 
-.zoomify_no_img > img#zoomify_img {
-    display: none!important;
+.zoomify_no_img>img#zoomify_img {
+    display: none !important;
 }
 
 .zoomify_separator {

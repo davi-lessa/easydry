@@ -532,7 +532,7 @@ var relayout,
     }
 
     
-var starIco = `<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate.svg" class="ratingStar">`;
+var starIco = `<img src="./assets/img/defs/svg/rate.svg" class="ratingStar">`;
 var relayout;
 const yoloReviews = {
     init() {
@@ -555,10 +555,10 @@ const yoloReviews = {
     containerOffsetTop: document.querySelector(".section_reviews").offsetTop,
     generate() {
         let onlyImg = {};
-        let bigStarIco = `<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate.svg" class="ratingStarBig">`;
-        let halfStarIcoBig = `<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate-half.svg" class="ratingStarBig">`;
-        let halfStarIco = `<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate-half.svg" class="ratingStar">`;
-        let blankStarIco = `<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate-blank.svg" class="ratingStar">`;
+        let bigStarIco = `<img src="./assets/img/defs/svg/rate.svg" class="ratingStarBig">`;
+        let halfStarIcoBig = `<img src="./assets/img/defs/svg/rate-half.svg" class="ratingStarBig">`;
+        let halfStarIco = `<img src="./assets/img/defs/svg/rate-half.svg" class="ratingStar">`;
+        let blankStarIco = `<img src="./assets/img/defs/svg/rate-blank.svg" class="ratingStar">`;
         let noImg = {};
         let allReviews = {};
         Object.keys(jdata).forEach((id) => {
@@ -602,7 +602,7 @@ const yoloReviews = {
                 // return; // bloqueia a renderização do review. Botar função pra cima.
             }
 
-            icostar.innerHTML = '<img src="https://storage.cloud.google.com/dsvstorage/general/svg/rate.svg" class="ratingStar">';
+            icostar.innerHTML = '<img src="./assets/img/defs/svg/rate.svg" class="ratingStar">';
 
             let w = key[1].w;
             let h = key[1].h;
@@ -891,7 +891,7 @@ const zoomify = {
         let zverified = document.createElement("span");
         let ztext = document.createElement("p");
         let txtverified = document.createElement("span");
-        zverified.insertAdjacentHTML('afterbegin', '<img src="https://storage.cloud.google.com/dsvstorage/general/svg/verified.svg">')
+        zverified.insertAdjacentHTML('afterbegin', '<img src="./assets/img/defs/svg/verified.svg">')
         txtverified.innerText = "Avaliação verificada";
         txtverified.style.verticalAlign = "top";
         txtverified.style.fontSize = "12px";

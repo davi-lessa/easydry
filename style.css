@@ -528,7 +528,7 @@ section.reviews {
     flex-wrap       : wrap;
     align-content   : flex-start;
     padding         : 5%;
-    justify-content: center;
+    justify-content : center;
 }
 
 .offerBox * {
@@ -536,8 +536,10 @@ section.reviews {
     line-height: 125%;
 }
 
-#oferta_titulo, #offer_parcel, #model{
-    width: 100%;
+#oferta_titulo,
+#offer_parcel,
+#model {
+    width     : 100%;
     text-align: left;
 }
 
@@ -1233,7 +1235,7 @@ ul.steps_list span:not(.num) {
 }
 
 .fancy-scroll::-webkit-scrollbar {
-    width           : 12px;
+    width           : 5px;
     height          : 3px;
     background-color: transparent;
 }
@@ -1328,16 +1330,16 @@ ul.steps_list span:not(.num) {
     body.stop-scrolling::after {
         background-color: transparent !important;
     }
-}
 
-.fancy-scroll::-webkit-scrollbar {
-    height: 25px;
-}
+    .fancy-scroll::-webkit-scrollbar {
+        height: 25px;
+    }
 
-ul.steps_list span:not(.num) {
-    max-width: 450px;
-}
+    ul.steps_list span:not(.num) {
+        max-width: 450px;
+    }
 
-ul.steps_list {
-    max-width: 600px;
+    ul.steps_list {
+        max-width: 600px;
+    }
 }

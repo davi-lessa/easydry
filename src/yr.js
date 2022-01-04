@@ -213,7 +213,7 @@ var relayout,
         "393151113": {
             "name": "Sheila B*",
             "date": "2021/12/03",
-            "text": "Produto de excelente qualidade Prático de usar. Adorei",
+            "text": "Produto de excelente qualidade. Prático de usar. Adorei",
             "stars": 5,
             "img": "./assets/img/defs/reviews/sdfj.jpg",
             "bg": "",

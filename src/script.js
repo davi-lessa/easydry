@@ -355,4 +355,11 @@ document.querySelectorAll("img[data-w][data-h]:not([src*=''])").forEach(i => {
     }
 });
 
+const genLink = to => {
+    const associations = {
+        "track": `${window.location.protocol}//rastreio.${window.location.host}`
+    }
+    return associations[to] || "#";
+}
+
 const openLink = (link, newtab = false) => newtab ? window.open(link, "_blank").focus() : window.location.href = link;

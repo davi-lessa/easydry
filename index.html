@@ -33,9 +33,9 @@
                 <span class="toggleMenu">...</span>
                 <div class="menu">
                     <ul>
-                        <li data-closeonclick="true">EASY.DRY™</li>
+                        <li data-scroll="section.s1" data-closeonclick="true">EASY.DRY™</li>
                         <li data-scroll="footer" data-closeonclick="true">ATENDIMENTO</li>
-                        <li data-closeonclick="true">RASTREIO</li>
+                        <li data-closeonclick="true" onclick="openLink(genLink('track'), true)">RASTREIO</li>
                         <li data-closeonclick="true">GARANTIA</li>
                         <li data-closeonclick="true" data-info="pt">POLÍTICA DE TROCA</li>
                         <li data-closeonclick="true" data-info="pp">POLÍTICA DE PRIVACIDADE</li>
@@ -364,7 +364,7 @@
                         onclick="openLink(defs.whatslink, true)">Chamar no WhatsApp</button>
                     <span><b>Links</b></span>
                     <ul class="links mt mb">
-                        <li>Rastrear pedido</li>
+                        <li onclick="openLink(genLink('track'), false)">Rastrear pedido</li>
                         <li data-info="pp">Políticas de Privacidade</li>
                         <li data-info="pt">Termos de Devolução</li>
                     </ul>

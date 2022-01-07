@@ -124,7 +124,7 @@ if ("IntersectionObserver" in window) {
                 observer.unobserve(image);
             }
         });
-    }, { rootMargin: "1200px 1200px 1200px 1200px" });
+    }, { rootMargin: "600px 600px 600px 600px" });
 
     lazyloadImages.forEach(function (image) {
         imageObserver.observe(image);
@@ -304,7 +304,8 @@ setAccords();
 class Cart {
     #configs = {};
     constructor(options = {}) {
-        const { checkoutBaseURL = "https://mycheckout.com/r/", promoCode } = options;
+        const host = window.location.hostname.replace("www.", "");
+        const { checkoutBaseURL = `https://seguro.${host}/`, promoCode } = options;
         this.#configs.checkoutBaseURL = checkoutBaseURL;
         this.#configs.promoCode = promoCode;
     }
@@ -330,7 +331,9 @@ class Cart {
 
 let cart = new Cart();
 
-offer.elements.buybtn.addEventListener("click", () => cart.mount(offer.selectedVariation.sku));
+offer.elements.buybtn.addEventListener("click", () => {
+    window.location.href = cart.mount(offer.selectedVariation.sku);
+});
 
 function createPlaceholderCanvas(width, height, color = "#aaa") {
     const element = document.createElement("canvas");

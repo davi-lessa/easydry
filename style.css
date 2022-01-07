@@ -47,10 +47,11 @@
 }
 
 @font-face {
-    font-family: "PN";
-    src        : url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format('woff2');
-    font-style : normal;
-    font-weight: 500;
+    font-family : "PN";
+    src         : url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format('woff2');
+    font-style  : normal;
+    font-weight : 500;
+    font-display: swap;
 }
 
 h1,
@@ -198,7 +199,7 @@ header .headerMenu .menuBuyBtn {
     padding         : 8px 15px;
     margin          : 25px auto 0 auto;
     box-shadow      : 0 3px 5px 0 rgb(184, 184, 184);
-    background-color: orange;
+    background-color: #ffda22;
     border-radius   : 8px;
 }
 

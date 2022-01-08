@@ -257,7 +257,8 @@ header.menuShow .headerMenu {
 }
 
 header.menuShow .headerMenu span.header_title {
-    color: white;
+    color : white;
+    cursor: pointer
 }
 
 header .headerMenu .header_title {
